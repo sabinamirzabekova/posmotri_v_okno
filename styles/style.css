@@ -22,7 +22,7 @@ html {
 }
 
 .page {
-  margin: 0;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
