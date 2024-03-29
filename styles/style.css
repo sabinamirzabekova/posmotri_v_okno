@@ -210,7 +210,7 @@ ol {
 }
 
 .content__list{
-  max-height: 298px;
+  height: 298px;
   width: 100%;
   overflow-y: auto;
   color: var(--white);
