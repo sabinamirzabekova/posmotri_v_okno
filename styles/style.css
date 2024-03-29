@@ -10,7 +10,6 @@ html {
 
 :root{
   --white: #fff;
-  --black: #000;
   --gray: #545454;
   --m-xl: 32px;
   --m-l: 30px;
@@ -165,11 +164,6 @@ ol {
   outline: none;
 }
 
-.search-form__textfield:has(:focus-visible){
-  outline-offset: 1px;
-  outline: 1px solid var(--white) ;
-}
-
 .search-form__checkbox-list{
   display: flex;
   gap: 15px;
@@ -299,8 +293,8 @@ ol {
   color: var(--white);
 }
 
-.content__video-card-description + .content__video-card-title:hover{
-  cursor: pointer;
+.content__card-link_current{
+  background-color: var(--gray);
 }
 
 .more-button{
